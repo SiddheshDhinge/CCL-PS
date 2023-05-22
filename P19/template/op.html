@@ -1,0 +1,20 @@
+<body>
+	{% for item in data %}
+	<ul>
+		<li>
+			Country: {{ item.country }}
+		</li>
+		<li>
+			Name: {{ item.name }}
+		</li>
+		<li>
+			Web Page: 
+			{% for link in item.web_pages %}
+				{{ link }}
+			{% endfor %}
+		</li>
+	</ul>
+	<hr>
+	{% endfor %}
+</body>
+

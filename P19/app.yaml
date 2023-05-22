@@ -1,6 +1,6 @@
 runtime: python
-threadsafe: false
 api_version: 1
-handlers: 
+threadsafe: false
+handlers:
  - url: /
    script: main.py
