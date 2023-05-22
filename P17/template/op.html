@@ -1,0 +1,10 @@
+<body>	
+	<ul>
+		{% for item in data.PostOffice %}
+		<li>
+			{{ item.Name }} <br>
+			{{ item.Description }}
+		</li>
+		{% endfor %}
+	</ul>
+</body>
