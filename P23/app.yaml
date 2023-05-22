@@ -1,0 +1,6 @@
+runtime: python
+threadsafe: true
+api_version: 2
+handlers:
+ - url: /
+   script: main.py
